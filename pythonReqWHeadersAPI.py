@@ -13,7 +13,7 @@ params = {
     "type": "image"
 }
 
-response = requests.get(BASE_URL, headers=headers, params=params)
+response = requests.get(BASE_URL, headers=headers, params=params,verify=False)
 file = open("response.txt", "w")
 file.write(response.text)
 file.close()
