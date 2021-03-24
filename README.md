@@ -4,3 +4,5 @@ Simple Scripts for automating trivial tasks using python request and response, p
 Switch branches for specific usecases, the branch name will tell you what the Scripts are for, Most openpyxl and selenium related scripts are in the branch "AmazonUsecaseOT"
 
 All the rest (`requests`, `os`, `network`, `imap` related scripts) are in the main branch
+
+
