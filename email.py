@@ -20,4 +20,4 @@ def sendmail():
         server.sendmail(sender_email, receiver_email, message)
         
         
-  //https://stackoverflow.com/questions/26852128/smtpauthenticationerror-when-sending-mail-using-gmail-and-python
+  #https://stackoverflow.com/questions/26852128/smtpauthenticationerror-when-sending-mail-using-gmail-and-python
