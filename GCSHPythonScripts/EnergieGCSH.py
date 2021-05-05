@@ -22,7 +22,7 @@ def mailnotification():
     password = "<password>"
     send_to_email = "<email1>,<email2>, <email3>, <email4>" # for whom
     subject = "The Song has just Started!!!! Start the RAdio"
-    message = "The  song mood has just started on the Energie.at call them right now at 06766060701 "
+    message = "<custom mesage>"
 
     msg = MIMEMultipart()
     msg["From"] = email
