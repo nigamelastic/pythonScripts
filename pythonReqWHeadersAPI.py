@@ -14,6 +14,7 @@ params = {
 }
 
 response = requests.get(BASE_URL, headers=headers, params=params,verify=False)
+print(response.status_code)
 file = open("response.txt", "w")
 file.write(response.text)
 file.close()
