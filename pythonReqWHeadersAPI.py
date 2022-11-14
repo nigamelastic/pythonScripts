@@ -8,6 +8,12 @@ headers = {
     "Authentication" : 'Authorization': 'Basic base64encoded_<Username>_:_<password>='
 }
 
+
+
+
+"""
+To use params in the request like : /url?<param1>=<value1>&<param2>=<Value2>
+"""
 params = {
     "page": 20,
     "page_size": 25,
