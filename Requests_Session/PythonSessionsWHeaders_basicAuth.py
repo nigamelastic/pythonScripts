@@ -15,9 +15,8 @@ session.proxies.update(proxies)
 To use params in the request like : /url?<param1>=<value1>&<param2>=<Value2>
 """
 params = {
-    "page": 20,
-    "page_size": 25,
-    "type": "image"
+    "projectId": 20,
+    "rowCount": -1
 }
 session.params = params
 
